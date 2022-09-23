@@ -9,4 +9,6 @@ jobs:
   cd:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Something is better than nothing"
+      - run: |
+          echo "Something is better than nothing"
+          sleep 30
